@@ -1,6 +1,68 @@
 body {
   display: block;
-  background-color: #282a36;
-  color: #d8dee9;
+  background-color: #2e3440;
+  color: #434c5e;
 }
 
+#title {
+  color: #d8dee9;
+  text-align: center;
+  margin: 0.4rem;
+}
+
+section {
+  width:450px;
+  height: 650px;
+  overflow: hidden;
+  font-family: 'Source Code Pro', monospace;
+  background: #d8dee9;
+  border-radius: 2px;
+  padding: 1.2rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.288);
+}
+
+menu{
+}
+
+#imgpercebeu {
+  display: flex;
+  margin: 5px auto 2rem ;
+  width:50%;
+  max-width:180px;
+  border-radius: 50%;
+  box-shadow: 0px 0.3rem 1rem #2e3440;
+}
+
+#imgtitle{
+  text-align: center;
+  font-weight: bold;
+}
+
+#description {
+  font-size: 1.1rem;
+  position:;
+  padding-left:1rem;
+}
+
+h2{
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 0.3rem
+}
+#oqueAprender{
+margin-top: 0;
+font-size: 0.95rem;
+display: grid;
+justify-content:center;
+}
+
+#mesegue{
+  list-style: none;
+  display: flex;
+  justify-content:center;
+  gap: 1rem;
+  margin-bottom: ;
+}
